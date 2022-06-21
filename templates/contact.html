@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<!-- <p class="specialheading center">Contact Wall Street Arcade & Gaming Store
+    <!-- <input id="emailinput" type="text" placeholder="Your email address" name="text1"> -->
+<!-- <input id="readybutton" type="button" value="I'm ready!" name="Submit" onclick="validate(document.getElementsByName('text1')[0].value)"> -->
+</p> -->
+
+<p class="promocode center">Sign up for our newsletter!
+    <input id="emailinput" type="text" placeholder="Your email address" name="text1">
+  <input id="readybutton" type="button" value="I'm ready!" name="Submit" onclick="validate(document.getElementsByName('text1')[0].value)">
+  </p>
+
+
+<div id="flex-container">
+
+    
+    <div class="specialheading3" width="500px">Contact Form
+<br>
+
+<span id="linebreaker1">     
+    <!-- <img src="/static/images/spacer.png" alt=""> -->
+</span>
+
+        <p class="">Name
+            <input id="emailinput" type="text" placeholder="Your name" name="text1">
+        
+        </p>
+        <p class="">Subject
+            <input id="emailinput" type="text" placeholder="Subject" name="text1">
+        
+        </p>
+        <p class="">Message
+            <input id="emailinput" type="text" placeholder="Your message" name="text1">
+        
+        </p>
+
+        <input id="readybutton" type="button" value="Send message" name="Submit" onclick="validate(document.getElementsByName('text1')[0].value)">
+
+    </div> 
+    <div class="specialheading2">
+
+        Email: wall@streetarcade.com<br>
+        Tel: 212-656-3000<br>
+        Send us something nice:<br>
+        
+11 Wall St<br>
+New York<br>
+NY 10005<br>
+USA</div> 
+
+
+</div>
+<span id="linebreaker1">     
+    <!-- <img src="/static/images/spacer.png" alt=""> -->
+</span>
+
+
+{% endblock %}
