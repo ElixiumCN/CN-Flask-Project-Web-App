@@ -401,6 +401,17 @@ body{
     
 }
 
+.modalwallst {
+
+    color:black;
+}
+
+.biggerbtn {
+
+font-size: 15px;
+
+}
+
 .wallstreetarcadeimg2 img{
     min-width: 90%;
     /* height: 350px; */
