@@ -46,6 +46,7 @@ button:hover {
     display:flex;
     justify-content: center;
     background: hsl(260 89% 31% / 50%);
+    /* background: green; */
     backdrop-filter: blur(3rem);
     border-radius: 1rem;
     padding: 1.5rem;
@@ -66,6 +67,8 @@ button:hover {
     font-size: 16px;
     color: #ffffff;
     background-color: hsl(260 39% 31% / 25%);
+    /* background-color: hsl(260 39% 31% / 25%); */
+
     border-radius: 1rem;
     padding:0.5rem;
     transition: all 250ms ease;
@@ -173,7 +176,7 @@ h2 {
 }
 
 .specialheading3{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: white;
     min-width: 500px;
     max-width: 50rem;
@@ -406,6 +409,11 @@ body{
     color:black;
 }
 
+.contactform {
+font-size: 15px;
+
+}
+
 .biggerbtn {
 
 font-size: 15px;
@@ -463,6 +471,22 @@ font-size: 15px;
 
 }
 
+#container2 {
+    display: flex;
+    justify-content: center;
+    /* background-color: DodgerBlue; */
+}
+
+#container2 > div {
+    margin: 13px;
+    padding: 13px;
+    justify-content: center;
+}
+
+
+
+
+
 
 #adjust1 {
     /* max-width:30%;
@@ -477,5 +501,10 @@ font-size: 15px;
 #adjust2 {
     /* min-width:70%; */
     justify-content: center;
+
+}
+
+.address {
+    /* font-size:13px; */
 
 }

@@ -9,7 +9,34 @@
 </p>
 
 <div id="flex-container">
-    <div class="wallstreetarcadeimg"><img src="/static/images/stripes3.png" height="300px" width="300px" alt=""></div> 
+    <div class="wallstreetarcadeimg2 center"><img src="/static/images/hebermultisystem.png" height="300px" width="300px" alt="">
+    
+    <!-- wrap the button in its own div to prevent bootstrap from breaking some stuff -->
+           
+ <!-- Button trigger modal -->
+ <div><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Add to cart</button></div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title modalwallst" id="exampleModalLabel">Shopping cart</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="modalwallst">You have added the product<br>to your shopping cart!</p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Subscribe</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div> 
     <div class="wallstreetarcadeimg"><img src="/static/images/stripes3.png" height="300px" width="300px" alt=""></div> 
     <div class="wallstreetarcadeimg"><img src="/static/images/stripes3.png" height="300px" width="300px" alt=""></div> 
 </div>
