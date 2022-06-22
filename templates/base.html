@@ -20,7 +20,8 @@
 <body id="base-body">
 <p></p>
     <div id="navbar">
-        <!-- <img class="center" src="/static/images/wsbav.png" alt="" height="50px"> -->
+        <img style="width:50px; height:50px;" src="/static/images/wsbav.png" alt="">
+        <span style="line-height:50px;">
         <a href="{{url_for('views.home')}}">Visit us</a>
         <!-- <a href="{{url_for('views.visit')}}"></a> -->
         <a href="{{url_for('views.contact')}}">Contact</a>
@@ -29,6 +30,9 @@
         <a href="{{url_for('views.retrogaming')}}">Retro Gaming</a>
         <a href="https://twitter.com/WallStSenpai" target="_blank">Twitter</a>
         <a href="https://youtu.be/kH-zQXR2xKQ" target="_blank">YouTube</a>
+        <img style="width:50px; height:50px;" src="/static/images/cart.png" alt="">
+
+        </span>
     </div>
 
     {% block content %}
