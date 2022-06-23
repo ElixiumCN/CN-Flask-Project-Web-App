@@ -341,7 +341,7 @@ body{
     background: hsl(260 89% 31% / 50%); 
     backdrop-filter: blur(2rem);
     /* border-radius: 3rem; */
-    placeholder
+    /* placeholder */
     border-style: solid;
     border-width: 0.15rem;
     border-color: white;
@@ -363,7 +363,7 @@ body{
     background: hsl(260 89% 31% / 50%); 
     backdrop-filter: blur(2rem);
     /* border-radius: 3rem; */
-    placeholder
+    /* placeholder */
     border-style: solid;
     border-width: 0.15rem;
     border-color: white;
@@ -392,7 +392,7 @@ body{
     background: hsl(260 89% 31% / 50%); 
     backdrop-filter: blur(2rem);
     border-radius: 3rem;
-    placeholder
+    /* placeholder */
     border-style: solid;
     border-width: 0.15rem;
     border-color: white;
@@ -430,7 +430,7 @@ font-size: 15px;
     background: hsl(260 89% 31% / 50%); 
     backdrop-filter: blur(2rem);
     border-radius: 3rem;
-    placeholder
+    /* placeholder */
     border-style: solid;
     border-width: 0.15rem;
     border-color: white;
@@ -506,5 +506,5 @@ font-size: 15px;
 
 .address {
     /* font-size:13px; */
-
+    font-size: 10;
 }
